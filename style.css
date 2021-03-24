@@ -16,11 +16,11 @@ body {
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.header-link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.main__task {
   width: 56%;
   display: inline-block;
 }
@@ -111,7 +111,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-.button-add:hover {
+.main__button-add:hover {
   color: #0fc57c;
 }
 
@@ -141,17 +141,17 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-.button-delete:hover {
+.main__button-delete:hover {
   color: #cf2323;
 }
 
-.button-delete img {
+.main__button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button-delete img:hover {
+.main__button-delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -166,11 +166,11 @@ li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.main__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.main__edit-mode label {
   display: none;
 }
